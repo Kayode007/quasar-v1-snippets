@@ -162,7 +162,7 @@
 	"QBtnDropdown": {
 		"prefix": "qbtn-dropdown",
 		"body": [
-			"<q-btn-dropdown color=\"primary\" label=\"Dropdown Button\">",
+			"<q-btn-dropdown auto-close stretch color=\"primary\" label=\"Dropdown Button\">",
 			"<q-list>",
 				"<q-item clickable v-close-popup>",
 				"<q-item-section>",
@@ -1091,6 +1091,5 @@
 			"$2"
 		],
 		"description": "Using the QVideo component makes embedding a video like Youtube easy. It also resizes to fit the container by default."
-	}
-
+	},
 }
